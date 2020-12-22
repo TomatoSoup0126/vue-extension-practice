@@ -1,19 +1,17 @@
 <template>
-  <hello-world />
+  <Itemcard />
 </template>
 
 <script>
-import HelloWorld from '@/components/HelloWorld.vue'
+import Itemcard from '@/components/ItemCard.vue'
 
 export default {
   name: 'App',
-  components: { HelloWorld }
+  components: { Itemcard }
 }
 </script>
 
 <style>
 html {
-  width: 400px;
-  height: 400px;
 }
 </style>
